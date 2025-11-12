@@ -115,3 +115,101 @@ The goal of this project was to design a **cost-effective**, **sensor-driven**, 
 
 ## 📡 Example Serial Output  
 
+✅ Connected to WiFi
+ESP32 IP Address: 192.168.43.205
+HTTP server started
+PIR: 1 | LDR: 1800
+⚡ Motion detected → LEDs ON
+🌑 Dark environment (no motion) → LEDs ON
+❌ No motion & Bright → LEDs OFF
+
+---
+
+
+## 🧩 Software Used  
+
+- **Arduino IDE 2.x** — for programming ESP32  
+- **ESP32 Board Library**  
+- **WebServer.h** — for hosting local web server  
+- **WiFi.h** — for handling Wi-Fi connectivity  
+
+---
+
+## 🧱 Project Architecture  
+
+    ┌────────────────────────────┐
+    │        ESP32 Board         │
+    │                            │
+    │ ┌──────────┐ ┌──────────┐  │
+    │ │   PIR     │ │   LDR     │
+    │ └──────────┘ └──────────┘  │
+    │       │            │        │
+    │  Motion & Light  Sensor Data │
+    │       ▼            ▼        │
+    │ ┌──────────────────────────┐│
+    │ │   Decision Controller    ││
+    │ └──────────────────────────┘│
+    │       │            │        │
+    │  Control Relays / LEDs / Fan│
+    │       ▼            ▼        │
+    │ ┌──────────────────────────┐│
+    │ │     Web Server API       ││
+    │ └──────────────────────────┘│
+    └────────────────────────────┘
+
+
+---
+
+## 🌟 Achievements  
+
+🏆 **Successfully demonstrated** the project at **<Tech-Tonic> Hackathon 2025**, organized by CMPICA, CHARUSAT.  
+💡 Showcased real-time control and automation of devices via IoT.  
+🔌 Created a bridge between hardware (ESP32) and software (Web interface).  
+
+---
+
+## 🧭 Future Scope  
+
+- 🗣️ Integration with Google Assistant / Alexa  
+- 📱 Development of a dedicated mobile app (Flutter)  
+- ⏰ Scheduling system for time-based automation  
+- 🌡️ Add temperature/humidity sensors for better environment control  
+- ☁️ Cloud-based remote monitoring (Firebase / MQTT)  
+
+---
+
+## 🏫 Acknowledgment  
+
+Special thanks to our mentors and faculty at  
+**Smt. Chandaben Mohanbhai Patel Institute of Computer Applications (CMPICA), CHARUSAT**  
+for their continuous guidance and encouragement throughout the project and hackathon.  
+
+---
+
+## 🔗 Project Repository  
+
+📁 **GitHub Repository:** [👉 View the Code Here](#)  
+*(Replace the “#” with your actual GitHub repo URL once uploaded)*  
+
+---
+
+## 🖼️ Certificate  
+
+Proudly presented at **<Tech-Tonic> Hackathon 2025**, CHARUSAT.  
+![Certificate](certificate-image.jpg)
+
+---
+
+## 🏁 Conclusion  
+
+The **Smart Home Automation System** represents a step toward the **future of intelligent living**.  
+By integrating hardware sensors, embedded control, and wireless communication, our project aims to make home environments more **responsive**, **efficient**, and **sustainable** 🌱.  
+
+We learned not only about IoT and embedded systems, but also about collaboration, time management, and rapid prototyping — making this hackathon journey truly unforgettable! 💪  
+
+---
+
+### ❤️ Developed by  
+**Team CMPICA Innovators** | *<Tech-Tonic> Hackathon 2025*  
+> *"Turning ideas into innovation, one circuit at a time."* ⚡  
+
