@@ -5,11 +5,11 @@
 
 ## 👨‍💻 Team Members  
 - **Jainam Khetani**  
-- **[Teammate 1 Name]**  
-- **[Teammate 2 Name]**  
-- **[Teammate 3 Name]**  
+- **Jash Joshi**  
+- **Palak Donga**  
+- **Khushi Ka.Patel**  
 
-> *Team CMPICA Innovators — passionate about blending IoT, automation, and web technologies to create smarter homes.*
+> *Team Smart Space Innovators — passionate about blending IoT, automation, and web technologies to create smarter homes.*
 
 ---
 
@@ -178,25 +178,9 @@ PIR: 1 | LDR: 1800
 
 ---
 
-## 🏫 Acknowledgment  
-
-Special thanks to our mentors and faculty at  
-**Smt. Chandaben Mohanbhai Patel Institute of Computer Applications (CMPICA), CHARUSAT**  
-for their continuous guidance and encouragement throughout the project and hackathon.  
-
----
-
 ## 🔗 Project Repository  
 
-📁 **GitHub Repository:** [👉 View the Code Here](#)  
-*(Replace the “#” with your actual GitHub repo URL once uploaded)*  
-
----
-
-## 🖼️ Certificate  
-
-Proudly presented at **<Tech-Tonic> Hackathon 2025**, CHARUSAT.  
-![Certificate](certificate-image.jpg)
+📁 **GitHub Repository:** [👉 View the Code Here](#https://github.com/24CS039Jainam/Smart-Home-Automation)  
 
 ---
 
@@ -210,6 +194,7 @@ We learned not only about IoT and embedded systems, but also about collaboration
 ---
 
 ### ❤️ Developed by  
-**Team CMPICA Innovators** | *<Tech-Tonic> Hackathon 2025*  
+**Team Smart Space Innovators** | *<Tech-Tonic> Hackathon 2025*  
 > *"Turning ideas into innovation, one circuit at a time."* ⚡  
+
 
